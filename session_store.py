@@ -49,3 +49,8 @@ def loadSession(self):
             #save the new sessionID into cookie
             #load the session data for the session
 """
+
+"""
+Make sure to call self.loadSession()
+ at the start of every pathway, ie DO_GET, DO_OPTIONS etc...
+"""
